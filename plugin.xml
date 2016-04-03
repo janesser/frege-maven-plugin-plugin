@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.m2e.core.lifecycleMappingMetadataSource">
+   </extension>
+   <extension
+         point="org.eclipse.m2e.core.projectConfigurators">
+      <configurator
+            class="de.esserjan.edu.frege.maven.FregeProjectConfigurator"
+            id="frege-maven-plugin-plugin.projectConfigurator">
+      </configurator>
+   </extension>
+</plugin>
